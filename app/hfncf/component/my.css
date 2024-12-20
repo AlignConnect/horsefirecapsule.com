@@ -1,0 +1,58 @@
+.data-grendiant-text {
+
+    background: rgb(91, 151, 107);
+    background: linear-gradient(180deg, rgb(8, 31, 3) 1%, rgba(255, 255, 255, 1), rgb(231, 129, 13) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.menu-icon {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-line {
+    width: 150px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+.menu-line.middle {
+    width: 150px;
+}
+
+.change .menu-line.top {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .menu-line.middle {
+    opacity: 0;
+}
+
+.change .menu-line.bottom {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+.pop_imagehfv {
+    animation: zoom-in-zoom-out 1.2s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(0.8, 0.8);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1, 1);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.8, 0.8);
+        opacity: 1;
+    }
+}

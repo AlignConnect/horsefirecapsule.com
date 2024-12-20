@@ -1,0 +1,27 @@
+.bg-horsefire {
+
+    background: rgb(195, 147, 38);
+    background: linear-gradient(90deg, rgba(195, 147, 38, 1) 0%, rgba(226, 197, 89, 1) 19%, rgba(195, 147, 38, 1) 60%, rgba(226, 197, 89, 1) 87%);
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.sty-border {
+
+    border-bottom: 4px solid white;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.horse-hfc {
+
+
+    text-shadow: 1px 1px red;
+
+}
